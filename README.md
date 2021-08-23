@@ -2,27 +2,22 @@
 
 ## Abstract
 
-You're about to push your latest project out to the launch pad - nearly every feature is complete, it's
-quick and you're excited for launch day.  But, are you ready to achieve orbit and stay there safely?
+You're about to push your latest project out to the launch pad - nearly every feature is complete, it's quick, and you're excited for launch day. But are you ready to achieve orbit and stay there safely?
  * Will it still be responsive when everyone uses it at the same time?
- * Do you have enough instrumentation in place to know if it's on course, or heading for a crash?
- * Once you find a problem, can you easily ship a fix?
+ * Do you have enough instrumentation in place to know if it's on course or heading for a crash?
+ * Once you find a problem, can you efficiently ship a fix?
 
-In this full-day workshop, you'll be taken on a journey to build launch-ready, battle-hardened ASP.NET Core 
-application.  You'll learn practical techniques you can put in place easily to:
+In this full-day workshop, you'll be taken on a journey to build a launch-ready, battle-hardened ASP.NET Core application. You'll learn practical techniques you can put in place to:
 
-* Design for scale without breaking your schedule.
-* Track and understand application health
-* Provide telemetry to your dev & ops team, product team and marketing team.
-* Deploy quickly and safely when you have updates and fixes
-* Scale to handle surges in activity.
+ * Design for scale without breaking your schedule.
+ * Track and understand application health
+ * Provide telemetry to your dev & ops team, product team, and marketing team.
+ * Deploy quickly and safely when you have updates and fixes
+ * Scale to handle surges of inactivity.
 
-.NET Core offers an incredible set of tools and strategies to solve these problems, but you can't *(and shoudln't)*
-try to employ them all.  We'll guide you through how to make good decisions on what's worth it for your situation
-and what you can afford to leave back in the workshop. 
+.NET Core offers an incredible set of tools and strategies to solve these problems, but you can't (and shouldn't) try to employ them all. We'll guide you through making good decisions on what's worth it for your situation and what you can afford to leave back in the workshop.
 
-After all, the whole point of a rocket is to go into space - so join us and launch your next
-app with the confidence of SpaceX!
+After all, the whole point of a rocket is to go into space - so join us and launch your next app with the confidence of SpaceX!
 
 ## Outline (8-hour version)
 
