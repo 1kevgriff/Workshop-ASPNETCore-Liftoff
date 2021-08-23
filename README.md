@@ -15,7 +15,7 @@ In this full-day workshop, you'll be taken on a journey to build a launch-ready,
  * Deploy quickly and safely when you have updates and fixes
  * Scale to handle surges of inactivity.
 
-.NET Core offers an incredible set of tools and strategies to solve these problems, but you can't (and shouldn't) try to employ them all. We'll guide you through making good decisions on what's worth it for your situation and what you can afford to leave back in the workshop.
+.NET offers an incredible set of tools and strategies to solve these problems, but you can't (and shouldn't) try to employ them all. We'll guide you through making good decisions on what's worth it for your situation and what you can afford to leave back in the workshop.
 
 After all, the whole point of a rocket is to go into space - so join us and launch your next app with the confidence of SpaceX!
 
