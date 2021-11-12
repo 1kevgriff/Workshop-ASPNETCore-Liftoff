@@ -38,10 +38,11 @@ scratchpad
 
 ### Act 1: Code-level Architecture
 
-  1. Design for Speed - Four Principles of Fast Applications
-  2. Telemetry for Everyone - Dev, Ops, Product and Marketing
-  3. Lab
-  4. Review
+  1. Design for Speed - Four Principles of Fast Applications - demo  
+  2. Design for Speed - lab
+  3. Telemetry for Everyone - Dev, Ops, Product and Marketing - demo
+  4. Telemetry for Everyone - Lab
+  6. Review
 
 ### Act 2: Packaging/Deployment/Configuration
 
