@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Average Application</h1>
+    <br />
+    <div>
+        <form method="post">
+            <input type="hidden" name="type" value="noqueue" />
+            <input type="submit" value="No Queues" />
+        </form>
+    </div>
+    <br />
+    <div>
+        <form method="post">
+            <input type="hidden" name="type" value="queue" />
+            <input type="submit" value="Use Queues" />
+        </form>
+    </div>
+</div>
