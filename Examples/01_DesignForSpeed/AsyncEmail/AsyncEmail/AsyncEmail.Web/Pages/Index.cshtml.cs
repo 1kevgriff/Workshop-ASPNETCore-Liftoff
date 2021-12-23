@@ -67,11 +67,13 @@ namespace AsyncEmail.Web.Pages
 
             var email = new Email();
             email.Subject = "Thanos Was Right";
-            email.Body = "<h1>Hello World</h1>";
+
+            var randomNumberGenerator = new Random();
+            email.Body = LoremNET.Lorem.Paragraph(randomNumberGenerator.Next(1,256), randomNumberGenerator.Next(1,12));
             var rnd = new Random().Next(avengers.Count);
             email.To = $"{avengers[rnd]}@avengers.net";
 
-            rnd = new Random().Next(avengers.Count);
+            rnd = randomNumberGenerator.Next(avengers.Count);
             email.From = $"{avengers[rnd]}@avengers.net";
             return email;
         }
