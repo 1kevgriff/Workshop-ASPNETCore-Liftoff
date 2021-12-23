@@ -51,6 +51,14 @@ scratchpad
   3. Lab
   4. Review
 
+### Build for Configuration
+
+How to decide when something needs to be configurable is all about the time you have to react to the change -
+
+* If you have a few weeks, do it in the source code. 
+* If you can restart the whole system for the change, do it in appsettings.json
+* If you have to be able to do it on the fly, do it in your data.
+
 ## About the Presenters
 
 ### Kevin Griffin
