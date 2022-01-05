@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Memory;
 
 public class InMemoryCacheController : ControllerBase
@@ -10,14 +11,17 @@ public class InMemoryCacheController : ControllerBase
         this._memoryCache = memoryCache;
     }
 
-    [HttpGet("/cache/memory")]
-    public IActionResult Get()
+    [HttpGet("/cache/memory/{key}")]
+    public async Task<IActionResult> GetAsync(string key)
     {
-        var value = _memoryCache.Get("key");
+        var value = _memoryCache.Get(key);
         if (value == null)
         {
-            _memoryCache.Set("key", "value");
-            value = "value";
+            // long running task, lol - this is a demo
+            await Task.Delay(new Random().Next(1000, 5000));
+
+            value = Guid.NewGuid().ToString();
+            _memoryCache.Set(key, value);
         }
 
         return Ok(value);
