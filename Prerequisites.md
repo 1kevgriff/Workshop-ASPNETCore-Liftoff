@@ -3,8 +3,10 @@
 We're looking forward to having you participate in the workshop with us!  In order to keep things as smooth as possible, we recommend all attendees have the follow prequisities ready to go before the beginning of the workshop:
 
 ## Required
+
 * .NET 6 (https://dot.net)
 * Visual Studio https://visualstudio.microsoft.com) or Visual Studio Code (https://code.visualstudio.com/Download)
+* Docker Desktop (https://www.docker.com/products/docker-desktop)
 
 ## Recommended
 
