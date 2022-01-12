@@ -40,6 +40,11 @@ You can quickly set up Mailhog using Docker:
 
 ```dotnetcli
 docker run --rm --name mailhog -p 1025:1025 -p 8025:8025 -d mailhog/mailhog
+``` 
+
+Alt:
+```dotnetcli
+docker run --rm --name mailhog_griffin -p 1025:1025 -p 8025:8025 -d griffincodemash.azurecr.io/mailhog
 ```
 
 SMTP Port: 1025
