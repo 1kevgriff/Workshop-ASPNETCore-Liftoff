@@ -10,6 +10,11 @@ In the Whisky.API repository, open the "06_HealthChecks" solution.
 
 This project contains a basic implementation of Health Checks for our Azure Queues.
 
+> Azurite (VS 2022 - As ADMIN): C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Azure Storage Emulator\azurite.exe
+> 
+> Azurite Docker: docker run --rm --name azurite -p 10000:10000 -p 10001:10001 -p 10002:10002 -d -v c:/azurite:/data mcr.microsoft.com/azure-storage/azurite
+
+
 ## Your Job
 
 Take a few minutes and work on implementing a health check or two that does the following:
