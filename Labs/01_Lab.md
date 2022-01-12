@@ -46,6 +46,9 @@ Alt:
 ```dotnetcli
 docker run --rm --name mailhog_griffin -p 1025:1025 -p 8025:8025 -d griffincodemash.azurecr.io/mailhog
 ```
+Alt alt:  
+If you cannot get Mailhog to run, connect directly to our TEST mailhog.  Change `localhost` to `20.80.38.122`.  The web port is http://20.80.38.122:8025.  
+
 
 SMTP Port: 1025
 Web Portal:  http://localhost:8025
