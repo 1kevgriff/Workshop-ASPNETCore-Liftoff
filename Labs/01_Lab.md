@@ -42,6 +42,9 @@ You can quickly set up Mailhog using Docker:
 docker run --rm --name mailhog -p 1025:1025 -p 8025:8025 -d mailhog/mailhog
 ```
 
+SMTP Port: 1025
+Web Portal:  http://localhost:8025
+
 ## Your Job:  Notification System Revamp
 
 There are some... problems with Whisky API.  Let's skip past the obvious issue that the database is stored using .csv files and a whole directory full of .json files.  
